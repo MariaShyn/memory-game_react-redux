@@ -4,11 +4,24 @@
   "private": true,
   "dependencies": {
     "classnames": "^2.2.5",
+    "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "0.9.5"
+    "react-redux": "^5.0.6",
+    "react-scripts": "0.9.5",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.15.0",
+    "eslint-config-react-app": "^2.0.1",
+    "eslint-plugin-flowtype": "^2.41.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^7.5.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
