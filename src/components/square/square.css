@@ -1,0 +1,45 @@
+.square img {
+    max-height: 90%;
+    max-width: 90%;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    float: left;
+    line-height: 70px;
+    height: 70px;
+    width: 70px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+
+    background: #fff;
+    border: 1px solid #999;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.square img {
+    transform: rotateY(180deg);
+    transition: transform 0.3s;
+    backface-visibility: hidden;
+}
+
+.square_active img {
+    transform: rotateY(0deg);
+}
+
+.square_opened img {
+    -webkit-animation: scaleImg 0.2s 2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    animation: scaleImg 0.2s 2;
+    animation-direction: alternate;
+}
+
+.square:focus {
+    outline: none;
+}

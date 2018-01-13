@@ -1,0 +1,14 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-board {
+    background-color: black;
+}
+
+.game-info {
+    margin-left: 20px;
+}

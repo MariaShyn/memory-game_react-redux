@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 const classNames = require('classnames');
 
+import './square.css';
 
 export default class Square extends Component {
     render () {

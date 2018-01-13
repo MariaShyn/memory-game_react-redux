@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
-import User from '../components/User'
-import Game from '../components/Game'
+import User from '../components/user/User'
+import Game from '../components/game/Game'
 
 import * as gameActions from '../actions/GameActions'
 
